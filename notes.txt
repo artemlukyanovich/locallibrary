@@ -1,12 +1,14 @@
 Веб-фреймворк Django (Python)
 https://developer.mozilla.org/ru/docs/Learn/Server-side/Django
 
+
 Django учебник Часть 3: Использование моделей
 https://docs.djangoproject.com/en/2.2/ref/models/fields/
 https://docs.djangoproject.com/en/1.10/ref/models/fields/#field-types
 https://docs.djangoproject.com/en/2.2/ref/models/options/#model-meta-options
 https://docs.djangoproject.com/en/2.2/ref/models/querysets/#field-lookups
 https://docs.djangoproject.com/en/2.2/topics/db/queries/
+
 
 Руководство Django часть 4: административная панель Django
 https://docs.djangoproject.com/en/1.10/ref/contrib/admin/
@@ -16,10 +18,12 @@ https://docs.djangoproject.com/en/dev/ref/contrib/admin/#django.contrib.admin.Ta
 https://docs.djangoproject.com/en/dev/ref/contrib/admin/#django.contrib.admin.StackedInline
 (!) pip install django-admin-list-filter-dropdown
 
+
 Руководство часть 5: Создание домашней страницы
 https://docs.djangoproject.com/en/1.10/topics/templates/
 http://getbootstrap.com/
 https://docs.djangoproject.com/en/1.10/howto/static-files/
+
 
 (!) Руководство часть 6: Отображение списков и детальной информации
 https://docs.djangoproject.com/en/1.10/topics/class-based-views/generic-display/
@@ -29,16 +33,20 @@ https://docs.djangoproject.com/en/1.10/topics/http/urls/#views-extra-options
 https://docs.djangoproject.com/en/1.10/topics/pagination/#paginator-objects
 https://docs.djangoproject.com/en/1.10/topics/pagination/#paginator-objects
 
+
 Руководство часть 7: Сессии
 https://docs.djangoproject.com/en/1.10/topics/http/sessions/
+
 
 Руководство Django Часть 8: Аутентификация и авторизация пользователя
 https://docs.djangoproject.com/en/2.1/topics/email/
 https://docs.djangoproject.com/en/2.1/topics/auth/default/#limiting-access-to-logged-in-users
 https://docs.python.org/3/library/functions.html#property
 
+
 Учебник Django часть 8: Авторизация и права пользователей
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
+
 
 (!) Учебник Django часть 9: Работа с формами
 https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Forms
@@ -48,6 +56,7 @@ https://docs.djangoproject.com/en/1.10/ref/forms/api/#django.forms.Form.clean
 (!) https://docs.djangoproject.com/en/1.10/topics/forms/#rendering-fields-manually
 https://docs.djangoproject.com/en/1.10/ref/class-based-views/generic-editing/
 https://docs.djangoproject.com/en/1.10/ref/class-based-views/generic-editing/#formview
+
 
 Руководство часть 10: Тестирование приложений Django
 https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Testing
@@ -62,5 +71,25 @@ https://docs.python.org/3.5/library/unittest.mock-examples.html
 http://coverage.readthedocs.io/en/latest/
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment
 
+
 Django Руководство часть 11: Разворачивание сайта на сервере
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Deployment
+https://www.digitalocean.com/community/tutorials?q=django
+https://djangofriendly.com/index.html
+export DJANGO_DEBUG=False
+https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
+python3 manage.py check --deploy
+https://devcenter.heroku.com/articles/dynos
+https://devcenter.heroku.com/articles/getting-started-with-python#introduction
+https://devcenter.heroku.com/articles/python-gunicorn
+https://warehouse.python.org/project/dj-database-url/
+
+pip3 install gunicorn
+pip3 install dj-database-url
+
+Postgres:
+sudo apt-get install python-pip python-dev libpq-dev postgresql postgresql-contrib
+pip3 install psycopg2-binary
+
+https://devcenter.heroku.com/articles/django-assets
+pip3 install whitenoise
